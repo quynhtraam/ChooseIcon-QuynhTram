@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgQues"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            app:srcCompat="@drawable/ic_baseline_emoji_emotions_24"
+            tools:ignore="ContentDescription,DuplicateIds,ImageContrastCheck,MissingConstraints"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="255dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgHappy"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/ic_baseline_emoji_emotions_24"
+            tools:ignore="ContentDescription,DuplicateIds,ImageContrastCheck,MissingConstraints"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="255dp" />
+
+        <ImageView
+            android:id="@+id/imgSad"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/ic_baseline_mood_bad_24"
+            tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="31dp" />
+
+        <ImageView
+            android:id="@+id/imgPlane"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/ic_baseline_airplanemode_active_24"
+            tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+        <ImageView
+            android:id="@+id/imgPort"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            app:srcCompat="@drawable/ic_baseline_airport_shuttle_24"
+            tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+            tools:layout_editor_absoluteX="193dp"
+            tools:layout_editor_absoluteY="328dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgNote"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/ic_baseline_audiotrack_24"
+            tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="102dp" />
+
+        <ImageView
+            android:id="@+id/imgMoon"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/ic_baseline_bedtime_24"
+            tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+            tools:layout_editor_absoluteX="254dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <ImageView
+            android:id="@+id/imgAndroid"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            app:srcCompat="@drawable/ic_baseline_android_24"
+            tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="489dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
